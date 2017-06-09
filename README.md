@@ -1,4 +1,4 @@
-# CoreML Allows Stealing Your Private Info 6x Faster than Before
+# Apple CoreML: Steal User Data 6x Times Faster
 
 ![](images/powerful.png)
 
@@ -30,7 +30,7 @@ In iOS 8 Apple introduced a new awesome security and privacy feature: "Hidden al
 
 ![](images/hide.PNG)![](images/hidden.PNG)
 
-No, you can't. Any application that has access to your photo library also has access to this folder content. Even worse, by putting your sensitive photos into that album you are effectively marking them as *interesting*, so the malicious apps can say to the system: "Hey, give the whole folder of those interesting photos." And user will never know, that the app has just uploaded all his "hidden" photos to its servers. If you're an iOS developer, you can check it yourself. That's how what official documentation says about this feature:
+No, you can’t. Any application that has access to your photo library also has access to the content of this folder. Even worse, by putting your sensitive photos into that album you are effectively marking them as *interesting*, so the malicious apps can say to the system: “Hey, give me the whole folder of those interesting photos.” And user will never know, that the app has just uploaded all his “hidden” photos to its servers. If you’re an iOS developer, you can check it yourself. That’s how what official documentation says about this feature:
 
 ![](images/docs.png)
 
