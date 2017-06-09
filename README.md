@@ -13,12 +13,12 @@ I did this, because I wanted to demonstrate, how easy it is to abuse user's secu
 
 No doubts you all have seen this type of messages:
 
-![](images/request.png)
+![](images/request.PNG)
 
 Most of the users just always press "OK" without ever reading it. 
 Some of you even know that you can reclaim those permissions back in iPhone settings:
 
-![](images/permissions.png)
+![](images/permissions.PNG)
 
 By the way, this is a screenshot from iOS 11 beta, where they have added a new option: "Add photos only". By some reason, it is available only for some apps, and they just stop working if you opt it.
 
@@ -28,7 +28,7 @@ Now, what exactly can an app do with your photos? Anything: analyze in a backgro
 
 In iOS 8 Apple introduced a new awesome security and privacy feature: "Hidden album." So now you can safely store your photos in that album, right?
 
-![](images/hide.png)![](images/hidden.png)
+![](images/hide.PNG)![](images/hidden.PNG)
 
 No, you can't. Any application that has access to your photo library also has access to this folder content. Even worse, by putting your sensitive photos into that album you are effectively marking them as *interesting*, so the malicious apps can say to the system: "Hey, give the whole folder of those interesting photos." And user will never know, that the app has just uploaded all his "hidden" photos to its servers. If you're an iOS developer, you can check it yourself. That's how what official documentation says about this feature:
 
@@ -67,23 +67,72 @@ Researchers from Max Planck Institute for Informatics successfully used a neural
 
 **Personal Description**
 
-- Gender- Eye Color- Hair Color- Fingerprint- Signature- Face- Tattoo- Nudity- Race- (Skin) Color- Traditional Clothing
-- Full Name- First Name- Last Name- Place of Birth- Date of Birth- Nationality- Handwriting- Marital status
-- Religion- Sexual Orientation- Culture- Hobbies- Sports
-- Personal Occasion- General Opinion- Political Opinion
-- Personal Relationships- Social Circle- Professional Circle- Competitors- Spectators- Similar view
+- Gender
+- Eye Color
+- Hair Color
+- Fingerprint
+- Signature
+- Face
+- Tattoo
+- Nudity
+- Race
+- (Skin) Color
+- Traditional Clothing
+- Full Name
+- First Name
+- Last Name
+- Place of Birth
+- Date of Birth
+- Nationality
+- Handwriting
+- Marital status
+- Religion
+- Sexual Orientation
+- Culture
+- Hobbies
+- Sports
+- Personal Occasion
+- General Opinion
+- Political Opinion
+- Personal Relationships
+- Social Circle
+- Professional Circle
+- Competitors
+- Spectators
+- Similar view
 - Education history
-- Visited Landmark- Visited Location
-- Home address- Date/Time of Activity- Phone no.- Username- Email address- Email content- Online conversations
+- Visited Landmark
+- Visited Location
+- Home address
+- Date/Time of Activity
+- Phone no.
+- Username
+- Email address
+- Email content
+- Online conversations
 - Legal involvement
-- Vehicle Ownership- License Plate
-- Employment- Occupation- Work Occasion
+- Vehicle Ownership
+- License Plate
+- Employment
+- Occupation
+- Work Occasion
 
 **Health**
 
-- Physical disability- Medical Treatment- Medical History**Documents**
-- National Identification- Credit Card- Passport- Drivers License- Student ID
-- Mail- Receipts- Tickets
+- Physical disability
+- Medical Treatment
+- Medical History
+
+**Documents**
+
+- National Identification
+- Credit Card
+- Passport
+- Drivers License
+- Student ID
+- Mail
+- Receipts
+- Tickets
 
 Check this paper for more details:
 
