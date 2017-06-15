@@ -1,4 +1,4 @@
-# Apple CoreML: Steal User Data 6x Times Faster
+# Apple CoreML: Steal User Data 6x Faster
 
 ![](images/powerful.png)
 
